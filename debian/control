@@ -1,0 +1,18 @@
+Source: lua-binaryheap
+Section: interpreters
+Priority: optional
+Maintainer: Tomas Krizek <tomas.krizek@nic.cz>
+Build-Depends: debhelper (>= 9),
+               dh-lua
+Standards-Version: 3.9.8
+Homepage: https://github.com/Tieske/binaryheap.lua
+Vcs-Git: https://github.com/tomaskrizek/binaryheap.lua
+Vcs-Browser: https://github.com/tomaskrizek/binaryheap.lua
+
+Package: lua-binaryheap
+Architecture: all
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Provides: ${lua:Provides}
+XB-Lua-Versions: ${lua:Versions}
+Description: Binary heap implementation in Lua

@@ -1,0 +1,5 @@
+lua-binaryheap (0.4-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Tomas Krizek <tomas.krizek@nic.cz>  Wed, 10 Jul 2019 12:27:00 +0200
